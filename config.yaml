@@ -96,7 +96,6 @@ window_effects:
       enabled: true
       opacity: '85%'
 
-
 window_behavior:
   # New windows are created in this state whenever possible.
   # Allowed values: 'tiling', 'floating'.
@@ -241,7 +240,7 @@ keybindings:
 
   # Close focused window.
   - commands: ['close']
-    bindings: ['alt+c']
+    bindings: ['alt+shift+q']
 
   # Kill GlazeWM process safely.
   - commands: ['wm-exit']
